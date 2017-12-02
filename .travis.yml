@@ -3,8 +3,8 @@ sudo: false # only for faster builds
 script:
   - clang -coverage -O0 main.c -o main
   - ./main
-  -pwd
-  -ls -al
+  - pwd
+  - ls -al
 
 after_success:
 - bash <(echo Build Success)
