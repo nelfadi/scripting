@@ -4,4 +4,5 @@
 
 void main()
 {
+  printf("OK\n\r");
 }
