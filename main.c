@@ -2,7 +2,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void main()
+int main()
 {
   printf("OK\n\r");
+  return 0;
 }
